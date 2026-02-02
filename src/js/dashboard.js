@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import {TabulatorFull as Tabulator} from 'tabulator-tables';
 import * as XLSX from 'xlsx';
-import 'tabulator-tables/dist/css/tabulator_semantic-ui.min.css';
+import 'tabulator-tables/dist/css/tabulator_semanticui.min.css';
 import '../css/dashboard.css';
 
 // Ensure XLSX is available globally for Tabulator

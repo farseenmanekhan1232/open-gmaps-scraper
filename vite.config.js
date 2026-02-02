@@ -4,9 +4,14 @@ import manifest from './src/manifest.json'
 
 export default defineConfig({
   root: 'src',
+  plugins: [crx({ manifest })],
   build: {
     outDir: '../dist',
-    emptyOutDir: true
-  },
-  plugins: [crx({ manifest })],
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        dashboard: 'src/dashboard.html'
+      }
+    }
+  }
 })
