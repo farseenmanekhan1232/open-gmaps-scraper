@@ -1,10 +1,11 @@
 import $ from 'jquery';
-import {Tabulator} from 'tabulator-tables';
+import {TabulatorFull as Tabulator} from 'tabulator-tables';
 import * as XLSX from 'xlsx';
 import 'tabulator-tables/dist/css/tabulator_semantic-ui.min.css';
 import '../css/dashboard.css';
 
-window.Tabulator = Tabulator; // for compatibility if needed
+window.XLSX = XLSX;
+window.Tabulator = Tabulator;
 
 function capitalizeFirstLetter(a){return a.charAt(0).toUpperCase()+a.slice(1)}var table=new Tabulator("#example-table",{layout:"fitData",placeholder:"Loading",selectable:1});
 document.getElementById("download-csv").addEventListener("click",function(){table.download("csv","results.csv");const b=table.getRows().length;console.log(`download ${b} emails.`);});
