@@ -4,6 +4,9 @@ Open GMap Scraper is a free, open-source Google Maps lead extraction tool that r
 
 [Video Guide](https://youtu.be/4YOT0ZUHwQQ?si=szmejKbS2x6rpbSZ)
 
+
+![4YOT0ZUHwQQ-HD](https://github.com/user-attachments/assets/001f1f34-281a-4f1c-8b16-cc6a364f3c97)
+
 ## Features
 
 - **Client-Side Only**: Runs entirely within your browser. No data is sent to external servers.
