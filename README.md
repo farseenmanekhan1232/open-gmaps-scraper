@@ -2,6 +2,8 @@
 
 Open GMap Scraper is a free, open-source Google Maps lead extraction tool that runs entirely in your browser. It allows you to search for local businesses on Google Maps and export their details (Name, Phone, Email, Social Media, etc.) to CSV or Excel files without any artificial limitations.
 
+[Video Guide](https://youtu.be/4YOT0ZUHwQQ?si=szmejKbS2x6rpbSZ)
+
 ## Features
 
 - **Client-Side Only**: Runs entirely within your browser. No data is sent to external servers.
